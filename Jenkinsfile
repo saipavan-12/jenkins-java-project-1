@@ -6,7 +6,7 @@ pipeline{
     stages{
         stage('checkout'){
             steps{
-                git 'https://github.com/RAHAMSHAIK007/jenkins-java-project-1.git'
+                git 'https://github.com/saikirangude/Git-repo3.git'
             }
         }
         stage('build'){
